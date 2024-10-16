@@ -1,0 +1,85 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #f5f7f8;
+    background-image: url('anime-background.jpg'); 
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+  }
+  
+  header .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 3em;
+    color: #f70909;
+  }
+  
+  p {
+    font-size: 1.3em;
+    color: #f2f2f2;
+  }
+  
+  .about, .anime-favorites, .contact {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: rgba(27, 29, 27, 0.1);
+    border-radius: 10px;
+    backdrop-filter: blur(5px); 
+  }
+  
+  h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #f70e0e;
+  }
+  
+  ul {
+    list-style-type: square;
+    color: #fff;
+  }
+  
+  ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  a {
+    color: #e20606;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  
+  footer p {
+    font-size: 0.9em;
+    color: #f2f2f2;
+  }
+  
